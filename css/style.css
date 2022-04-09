@@ -392,6 +392,54 @@ body.lock {
         font-size: 1.8rem;
     }
 }
+
+/* Services sections styles */
+
+.services__wrapper {
+    padding: 50px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.services__item {
+    padding: 24px 40px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.services-title {
+    font-family: "Playfair Display", serif;
+    color: var(--second-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services-text__wrapper {
+    margin-top: 35px;
+}
+
+.services-text__title {
+    color: var(--main-color);
+}
+
+.services-text__wrapper .button__wrapper {
+    margin-top: 26px;
+}
+
+@media (max-width: 850px) {
+    .services__wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 400px) {
+    .services__item {
+        padding: 12px 20px;
+    }
+}
+
 /* Popup styles */
 
 .popup {
