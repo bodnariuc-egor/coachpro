@@ -10,6 +10,7 @@
         <link rel="icon" href="img/coachpro_fv_64x64.jpg" type="image/jpg" sizes="64x64">
         <link rel="icon" href="img/coachpro_fv_32x32.jpg" type="image/jpg" sizes="32x32">
         <link rel="icon" href="img/coachpro_fv_16x16.jpg" type="image/jpg" sizes="16x16">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -22,13 +23,13 @@
                     </a>
                     <nav class="nav">
                         <ul class="nav__menu">
-                            <li class="nav__item"><a href="#">Обо мне</a></li>
-                            <li class="nav__item"><a href="#">Услуги</a></li>
-                            <li class="nav__item"><a href="#">Тренинги</a></li>
-                            <li class="nav__item"><a href="#">Фотогалерея</a></li>
+                            <li class="nav__item"><a href="#about-me">Обо мне</a></li>
+                            <li class="nav__item"><a href="#services">Услуги</a></li>
+                            <li class="nav__item"><a href="#training">Тренинги</a></li>
+                            <li class="nav__item"><a href="#gallery">Фотогалерея</a></li>
                         </ul>
                     </nav>
-                    <a href="#" class="button">Контакты</a>
+                    <a href="#contacts" class="button">Контакты</a>
                 </div>
             </header>
 
@@ -78,7 +79,7 @@
                     </div>
                 </section>
 
-                <section class="about-me">
+                <section id="about-me" class="about-me">
                     <div class="about-me__container">
                         <div class="about-me__wrapper">
                             <div class="about-me__content">
@@ -98,8 +99,12 @@
                     </div>
                 </section>
 
-                <section class="services">
+                <section id="services" class="services">
                     <div class="services__container">
+                        <div class="block-title">
+                            <h2 class="block-title__header">Услуги</h2>
+                            <hr class="block-title__line">
+                        </div>
                         <div class="services__wrapper">
                             <div class="services__item">
                                 <h3 class="services-title">Психология</h3>
@@ -127,13 +132,348 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="services__for-whom__container">
+                        <div class="services__for-whom__wrapper">
+                            <div class="psycho__wrapper">
+                                <h3 class="psycho__title">Кому нужен психолог?</h3>
+                                <p class="text text-dark">Психолог работает с психоэмоциональным состоянием личности, проблемными вопросами и психотравмами.</p>
+                                <br>
+                                <p class="text text-dark">Тем, кто находится в кризисной ситуации: потеря близкого, измена, предательство. Переживающим конфликтные ситуации на работе, дома...</p>
+                                <br>
+                                <p class="text text-dark">Так как нерешенные психологические проблемы становятся причиной психосоматических заболеваний.</p>
+                            </div>
+                            <div class="coach__wrapper">
+                                <h3 class="coach__title">Кому подойдёт коучинг?</h3>
+                                <p class="text text-dark">Коуч работает с Чемпионами, или с теми, кто стремится быть ими.</p>
+                                <br>
+                                <p class="text text-dark">Фактически коучинг нужен любому человеку, желающему решить важный вопрос из любой сферы жизни, измениться самому или просто изменить отношение к чему-либо!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__about-psycho__container">
+                        <div class="services__about-psycho__wrapper">
+                            <div class="about-psycho-image__wrapper">
+                                <img src="img/about_psychology_v2.webp" alt="Консультация психолога" class="about-psycho__img">
+                            </div>
+                            <div class="about-psycho-content__wrapper">
+                                <p class="secondary-title">Что даёт работа со мной как с психологом?</p>
+                                <p class="text">Расширяет сознание и увеличивает доступ к внутренней и внешней информации, что даёт человеку расширять своё мышление и спектр действий.</p>
+                                <p class="text">- освободиться от детских психотравм.</p>
+                                <p class="text">- освободиться от разрушающих эмоций (страха, гнева, агрессии, тревоги, неуверенности, неадекватной самооценки и многого другого).</p>
+                                <p class="text">- проработать психосоматические проявления.</p>
+                                <p class="text">- научиться грамотно реагировать на любые события и проявлять свои эмоции экологичным образом.</p>
+                                <p class="text">- коммуницировать с родными и социумом конструктивно.</p>
+                                <p class="text">- наполниться энергией, оптимизма и идей. И четко знать, как их реализовать.</p>
+                                <p class="text">-  жить свою жизнь.</p>
+                                <p class="text">-  любить себя по-настоящему!</p>
+                                <p class="text">Длительность работы зависит от поставленной задачи.</p>
+                                <p class="text">Если вы хотите решить конкретную проблему, то пути ее решения могут быть намечены уже на 1-2 консультациях.</p>
+                                <p class="text">Если задача - понять и переустроить свою жизнь, то это не менее 10-12.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__about-coach__container">
+                        <div class="services__about-coach__wrapper">
+                            <div class="about-coach-content__wrapper">
+                                <p class="secondary-title">Что даёт коучинговая сессия или курс сессий?</p>
+                                <p class="text">Расширяет сознание и увеличивает доступ к внутренней и внешней информации, что даёт человеку расширять своё мышление и спектр действий.</p>
+                                <p class="text">- освободиться от детских психотравм.</p>
+                                <p class="text">- освободиться от разрушающих эмоций (страха, гнева, агрессии, тревоги, неуверенности, неадекватной самооценки и многого другого).</p>
+                                <p class="text">- проработать психосоматические проявления.</p>
+                                <p class="text">- научиться грамотно реагировать на любые события и проявлять свои эмоции экологичным образом.</p>
+                                <p class="text">- коммуницировать с родными и социумом конструктивно.</p>
+                                <p class="text">- наполниться энергией, оптимизма и идей. И четко знать, как их реализовать.</p>
+                                <p class="text">-  жить свою жизнь.</p>
+                                <p class="text">-  любить себя по-настоящему!</p>
+                                <p class="text">Длительность работы зависит от поставленной задачи.</p>
+                                <p class="text">Если вы хотите решить конкретную проблему, то пути ее решения могут быть намечены уже на 1-2 консультациях.</p>
+                                <p class="text">Если задача - понять и переустроить свою жизнь, то это не менее 10-12.</p>
+                            </div>
+                            <div class="about-coach-image__wrapper">
+                                <img src="img/about_coach.webp" alt="Коучинговая сессия" class="about-coach__img">
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="my-clients">
+                    <div class="my-clients__container">
+                        <div class="my-clients__wrapper">
+                            <p class="secondary-title">Мои клиенты работают в компаниях</p>
+                            <div class="clients__list">
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/01_maib_logo.svg" alt="Логотип Moldova Agroindbank" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/02_babor_logo.svg" alt="Логотип Babor" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/03_simpals_logo.svg" alt="Логотип Simpals" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/04_bookville_logo.svg" alt="Логотип Bookville" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/05_academia_logo.png" alt="Логотип Академии искусств" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/06_prometeu_logo.png" alt="Логотип частного лицей Прометей" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/07_ecosport_logo.png" alt="Логотип Eco Sport Gym" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/08_bobcat_logo.png" alt="Логотип Bobcat" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/11_dhl_logo.svg" alt="Логотип DHL" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/09_thermoking_logo.png" alt="Логотип Thermo King" class="clients__card--image">
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/10_olsi_logo.png" alt="Логотип Olsi" class="clients__card--image"> 
+                                </div>
+                                <div class="clients__card">
+                                    <img src="img/clients_logos/12_Air_Moldova.png" alt="Логотип Air Moldova" class="clients__card--image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="gallery" class="gallery">
+                    <div class="gallery__container">
+                        <div class="photogallery__wrapper">
+                            <div class="block-title block-title--white">
+                                <h2 class="block-title__header">ФОТОГАЛЕРЕЯ</h2>
+                                <hr class="block-title__line">
+                            </div>
+                            <div class="swiper swiper-photo">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/slider_img/slider_photo_01.webp" alt="Команда Trash2Go">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/slider_img/slider_photo_02.webp" alt="Команда Trash2Go">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/slider_img/slider_photo_03.webp" alt="Команда Trash2Go">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/slider_img/slider_photo_04.webp" alt="Команда Trash2Go">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/slider_img/slider_photo_05.webp" alt="Команда Trash2Go">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/slider_img/slider_photo_06.webp" alt="Команда Trash2Go">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/slider_img/slider_photo_07.webp" alt="Команда Trash2Go">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                        <div class="videogallery__wrapper">
+                            <div class="block-title block-title--white">
+                                <h2 class="block-title__header">ВИДЕО ОТЗЫВЫ</h2>
+                                <hr class="block-title__line">
+                            </div>
+                            <div class="videogallery__content">
+                                <div class="videogallery__content-vertical">
+                                    <div class="video__body">
+                                        <video preload="none" poster="img/slider_video/video_otzyv_01.webp" controls src="img/slider_video/video_otzyv_01.mp4" class="video__item"></video>
+                                    </div>
+                                    <div class="video__body">
+                                        <video preload="none" poster="img/slider_video/video_otzyv_02.webp" controls src="img/slider_video/video_otzyv_02.mp4" class="video__item"></video>
+                                    </div>
+                                    <div class="video__body">
+                                        <video preload="none" poster="img/slider_video/video_otzyv_03.webp" controls src="img/slider_video/video_otzyv_03.mp4" class="video__item"></video>
+                                    </div>
+                                </div>
+                                <div class="videogallery__content-square">
+                                    <div class="video__body">
+                                        <video preload="none" poster="img/slider_video/video_otzyv_04.webp" controls src="img/slider_video/video_otzyv_04.mp4" class="video__item"></video>
+                                    </div>
+                                    <div class="video__body">
+                                        <video preload="none" poster="img/slider_video/video_otzyv_05.webp" controls src="img/slider_video/video_otzyv_05.mp4" class="video__item"></video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="training" class="training">
+                    <div class="training__container">
+                        <div class="training__wrapper">
+                            <div class="block-title">
+                                <h2 class="block-title__header">МАСТЕР-КЛАССЫ, ТРЕНИНГИ, КУРСЫ</h2>
+                                <hr class="block-title__line">
+                            </div>
+                            <div class="training__item training__item--large">
+                                <p class="training__item-category">Авторский курс</p>
+                                <h3 class="training__item-title">«Исцеление себя через исцеление личной кармы» ( 6 занятий)»</h3>
+                                <div class="training__item-text__wrapper">
+                                    <div class="item-text__wrapper">
+                                        <p class="text"><span class="services-text__title">Для кого курс?</span></p>
+                                        <p class="text">Для тех, кого преследуют болезни, неудачи в личной и профессиональной сфере.</p>
+                                        <p class="text">- у кого в роду, в семье есть алкоголики, наркоманы, зависимые от чего-либо люди.</p>
+                                        <p class="text">- кто притягивает в свою жизнь партнеров, с которыми вы в со-зависимых отношениях.</p>
+                                        <p class="text">- если вы чувствуете себя в роли «жертвы» или «спасательницы».</p>
+                                        <p class="text">- если у вас постоянные финансовые неурядицы или напротив, вы зарабатываете много и сама.</p>
+                                        <p class="text">- если вы воспитывает ребёнка или детей одна.</p>
+                                        <p class="text">- если вы апатичны, депрессивны или обесточены и постоянно чувствуете нехватку энергии.</p>
+                                        <p class="text">- если вы мечетесь и ищете своё предназначение в жизни.</p>
+                                        <p class="text">- если вас ничто не радует.</p>
+                                        <p class="text">- если вам трудно налаживать отношения в социуме и многое другое.</p>
+                                    </div>
+                                    <div class="item-text__wrapper">
+                                        <p class="text"><span class="services-text__title">Курс помогает:</span></p>
+                                        <p class="text">1. Проработать базовые детские психотравмы.</p>
+                                        <p class="text">2.Осознать кто вы и чего вы хотите на самом деле?</p>
+                                        <p class="text">3. Научиться понимать, любить и ценить себя.</p>
+                                        <p class="text">4. Ощутить прилив сил, энергии и истинных эмоций.</p>
+                                        <p class="text">5. Привлечь в свою жизнь «ваших» людей.</p>
+                                        <p class="text">6. Осознать своё предназначение.</p>
+                                        <p class="text item-text--last">7. Почувствовать энергию рода.</p>
+                                        <div class="button__wrapper">
+                                            <a href="#popup" class="button popup-link">Записаться</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="training__item-grid__wrapper">
+                                <div class="training__item item-grid">
+                                    <div class="item-grid__about-wrapper">
+                                        <p class="training__item-category">Мастер-класс</p>
+                                    <h3 class="training__item-title">«Мужчины и женщины - две мерности бытия»</h3>
+                                    </div>
+                                    <div class="button__wrapper">
+                                        <a href="#popup" class="button popup-link">Записаться</a>
+                                    </div>
+                                </div>
+                                <div class="training__item item-grid">
+                                    <div class="item-grid__about-wrapper">
+                                        <p class="training__item-category">Мастер-класс</p>
+                                    <h3 class="training__item-title">«Как справиться со стрессом?»</h3>
+                                    </div>
+                                    <div class="button__wrapper">
+                                        <a href="#popup" class="button popup-link">Записаться</a>
+                                    </div>
+                                </div>
+                                <div class="training__item item-grid">
+                                    <div class="item-grid__about-wrapper">
+                                        <p class="training__item-category">Мастер-класс</p>
+                                    <h3 class="training__item-title">«Женщина - создательница и хранительница очага»</h3>
+                                    </div>
+                                    <div class="button__wrapper">
+                                        <a href="#popup" class="button popup-link">Записаться</a>
+                                    </div>
+                                </div>
+                                <div class="training__item item-grid">
+                                    <div class="item-grid__about-wrapper">
+                                        <p class="training__item-category">Мастер-класс</p>
+                                    <h3 class="training__item-title">«Чакры и их взаимосвязь со всеми сферами жизни»</h3>
+                                    </div>
+                                    <div class="button__wrapper">
+                                        <a href="#popup" class="button popup-link">Записаться</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="training-third__wrapper">
+                                <div class="training__item item-grid">
+                                    <div class="item-grid__about-wrapper">
+                                        <h3 class="training__item-title">Бизнес-тренинги</h3>
+                                        <p class="text">Для владельцев бизнеса, менеджеров на заявленную вами тему.</p>
+                                        <p class="text">Специализируюсь на следующих темах:</p>
+                                        <p class="text">- психологические аспекты мотивации сотрудников и менеджерского состава.</p>
+                                        <p class="text">- увеличение уровня продаж предоставляемого продукта (услуг) путём прокачки основных и альтернативных бизнес кейсов.</p>
+                                        <p class="text">- корректная и конструктивная коммуникация с клиентами</p>
+                                        <p class="text item-text--last">- основные аспекты конфликтологии и успешное ее использовании в команде.</p>
+                                    </div>
+                                    <div class="button__wrapper">
+                                        <a href="#popup" class="button popup-link">Записаться</a>
+                                    </div>
+                                </div>
+                                <div class="training-image__wrapper">
+                                    <img src="img/training_img_v2.jpg" alt="Оксана Мыханюк - бизнес-тренер" class="training__img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contacts" class="contacts">
+                    <div class="contacts__container">
+                        <div class="contacts__wrapper">
+                            <div class="contacts-image__wrapper">
+                                <img src="img/contacts_image.jpg" alt="Контакты Оксаны Мыханюк" class="contacts_img">
+                            </div>
+                            <div class="contacts-content__wrapper">
+                                <div class="block-title">
+                                    <h2 class="block-title__header">Контакты</h2>
+                                    <hr class="block-title__line">
+                                </div>
+                                <p class="secondary-title">Связаться со мной</p>
+                                <div class="contacts-list__wrapper">
+                                    <div class="contacts-list__item">
+                                        <img src="img/icon_phone.svg" alt="Иконка телефона" class="contacts__icon">
+                                        <p class="contacts-item-content"><a href="tel:+37379603777" target="_blank">079 603 777</a></p>
+                                    </div>
+                                    <div class="contacts-list__item">
+                                        <img src="img/icon_mail.svg" alt="Иконка e-mail" class="contacts__icon">
+                                        <p class="contacts-item-content"><a href="mailto::oxana@coachpro.md" target="_blank">oxana@coachpro.md</a></p>
+                                    </div>
+                                    <div class="contacts-list__item">
+                                        <img src="img/icon_address.svg" alt="Иконка адреса" class="contacts__icon">
+                                        <p class="contacts-item-content">Кишинёв, ул. Бернардацци 26</p>
+                                    </div>
+                                    <div class="contacts-list__item">
+                                        <img src="img/icon_facebook.svg" alt="Иконка Facebook" class="contacts__icon">
+                                        <p class="contacts-item-content"><a href="https://www.facebook.com/lifeprocoach1" target="_blank">Facebook</a></p>
+                                    </div>
+                                    <div class="contacts-list__item">
+                                        <img src="img/icon_instagram.svg" alt="Иконка Instagram" class="contacts__icon">
+                                        <p class="contacts-item-content"><a href="https://www.instagram.com/life_pro_coach" target="_blank">Instagram</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
             </main>
 
             <footer class="footer">
-
+                <div class="footer__container">
+                    <div class="footer-cta__wrapper">
+                        <p class="footer__cta">Записаться <br>на консультацию</p>
+                        <form class="footer__form">
+                            <input type="text" class="footer__form-input input__name" placeholder="Имя">
+                            <input type="tel" class="footer__form-input input__tel" placeholder="Номер телефона">
+                            <button class="button" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                    <p class="copywright">© <script>document.write(new Date().getFullYear())</script> Оксана Мыханюк. Все права защищены.</p>
+                </div>
             </footer>
+        </div>
+
+        <div class="gotop__wrapper">
+            <div id="go-top-btn" class="gotop-link__wrapper">
+                <a href="#top"><img src="img/up-arrow-64.png" alt="Подняться вверх" class="go-to-top"></a>
+            </div>
         </div>
 
         <div id="popup" class="popup">
@@ -150,6 +490,7 @@
             </div>
         </div>
 
+        <script src="js/swiper-bundle.min.js"></script>
         <script src="js/script.js" async defer></script>
     </body>
 </html>

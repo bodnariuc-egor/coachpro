@@ -1,3 +1,17 @@
+// Go to top functionality
+const goTopButton = document.getElementById("go-top-btn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    goTopButton.style.display = "block";
+  } else {
+    goTopButton.style.display = "none";
+  }
+}
+
 // Popup functionality
 
 const popupLinks = document.querySelectorAll('.popup-link');
@@ -123,3 +137,25 @@ document.addEventListener('keydown', function (e) {
 			Element.prototype.msMatchesSelector;
 	}
 })();
+
+// Swiper functionality
+
+const sliderPhoto = document.querySelector('.swiper-photo');
+
+const swiperPhoto = new Swiper('.swiper-photo', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      800: {
+        slidesPerView: 2,
+      },
+    },
+  });
