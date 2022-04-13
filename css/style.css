@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap&subset=cyrillic-ext');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap&subset=cyrillic-ext');
+
 /* Styles reset */
 *,
 *::before,
@@ -82,6 +83,10 @@ body.lock {
     --main-color: #B30526;
     --second-color: #1D1E3C;
 }
+
+/* Animation keyframes */
+
+
 
 /* Header styles */
 
@@ -1014,6 +1019,10 @@ body.lock {
     letter-spacing: 1px;
 }
 
+.button--form {
+    cursor: pointer;
+}
+
 @media (max-width: 980px) {
     .footer-cta__wrapper {
         flex-direction: column;
@@ -1166,6 +1175,7 @@ body.lock {
         padding: 10px;
     }
 }
+
 /* All containers style */
 
 [class*="__container"] {
