@@ -468,7 +468,8 @@ body.lock {
 
     @supports (-webkit-touch-callout: none) and (not (translate: none)) {
         .services__item:not(:last-child) {
-          margin-bottom: 50px;
+            margin-right: 0;
+            margin-bottom: 50px;
         }
     }
 }
@@ -954,6 +955,12 @@ body.lock {
     gap: 80px;
 }
 
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    .contacts-image__wrapper {
+      margin-right: 80px;
+    }
+}
+
 .contacts-content__wrapper .block-title {
     margin-bottom: 35px;
 }
@@ -1019,6 +1026,13 @@ body.lock {
 
     .contacts-image__wrapper {
         width: 100%;
+    }
+
+    @supports (-webkit-touch-callout: none) and (not (translate: none)) {
+        .contacts-image__wrapper {
+          margin-right: 0;
+          margin-bottom: 40px;
+        }
     }
 }
 
