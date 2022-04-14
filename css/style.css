@@ -928,12 +928,13 @@ body.lock {
 .contacts-list__item {
     display: flex;
     align-items: center;
-    @supports (-webkit-touch-callout: none) and (not (translate: none)) {
-        &:not(:last-child) {
-          margin-bottom: 30px;
-        }
-      };
 }
+
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    .contacts-list__item :not(:last-child) {
+      margin-bottom: 30px;
+    }
+  };
 
 .contacts__icon {
     width: 32px;
