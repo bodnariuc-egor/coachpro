@@ -425,7 +425,7 @@ body.lock {
     background-color: #FBFBFB;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 50%;
 }
 
@@ -437,7 +437,7 @@ body.lock {
     margin-bottom: 20px;
 }
 
-.services__item .text--mrgbottom {
+.services-main__wrapper {
     margin-bottom: 35px;
 }
 
