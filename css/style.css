@@ -437,17 +437,25 @@ body.lock {
     margin-bottom: 20px;
 }
 
-.services-text__wrapper {
-    margin-top: 35px;
+.services__item .text--mrgbottom {
+    margin-bottom: 35px;
 }
+
+/* .services-text__wrapper {
+    margin-top: 35px;
+} */
 
 .services-text__title {
     color: var(--main-color);
 }
 
-.services-text__wrapper .button__wrapper {
-    margin-top: 26px;
+.services-price__wrapper {
+    margin-bottom: 26px;
 }
+
+/* .services-text__wrapper .button__wrapper {
+    margin-top: 26px;
+} */
 
 @media (max-width: 850px) {
     .services__wrapper {
@@ -656,6 +664,12 @@ body.lock {
 @media (max-width: 510px) {
     .clients__list {
         gap: 10px;
+    }
+
+    @supports (-webkit-touch-callout: none) and (not (translate: none)) {
+        .clients__card {
+          margin-bottom: 10px;
+        }
     }
 }
 
@@ -1169,7 +1183,8 @@ body.lock {
 .popup__title {
     color: var(--second-color);
     font-size: 2rem;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    padding-top: 10px;
     margin-bottom: 30px;
     text-align: center;
 }
