@@ -414,12 +414,6 @@ body.lock {
     gap: 50px;
 }
 
-@supports (-webkit-touch-callout: none) and (not (translate: none)) {
-    .services__item:not(:last-child) {
-      margin-bottom: 50px;
-    }
-}
-
 .services__item {
     padding: 24px 40px;
     background-color: #FBFBFB;
@@ -427,6 +421,12 @@ body.lock {
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
+}
+
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    .services__item:not(:last-child) {
+      margin-right: 50px;
+    }
 }
 
 
@@ -464,6 +464,12 @@ body.lock {
 
     .services__item {
         width: 100%;
+    }
+
+    @supports (-webkit-touch-callout: none) and (not (translate: none)) {
+        .services__item:not(:last-child) {
+          margin-bottom: 50px;
+        }
     }
 }
 
