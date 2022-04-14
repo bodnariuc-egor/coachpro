@@ -934,7 +934,7 @@ body.lock {
     .contacts-list__item :not(:last-child) {
       margin-bottom: 30px;
     }
-  };
+}
 
 .contacts__icon {
     width: 32px;
