@@ -63,7 +63,7 @@ body.lock {
 
 .wrapper {
     overflow: hidden;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ body.lock {
 
 .header__container {
     height: 100px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: space-between;
     display: flex;
@@ -110,7 +110,7 @@ body.lock {
 }
 
 .nav__menu {
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -190,7 +190,7 @@ body.lock {
 .intro__container {
     padding-top: 20px;
     padding-bottom: 20px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
     align-items: center;
 }
@@ -206,7 +206,7 @@ body.lock {
 
 .intro-content__wrapper {
     padding-left: 35px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     -webkit-justify-content: center;
     display: flex;
@@ -218,7 +218,7 @@ body.lock {
     color: var(--main-color);
     font-weight: 600;
     font-size: 18px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-items: center;
     display: flex;
     align-items: center;
@@ -266,7 +266,7 @@ body.lock {
 }
 
 .button__wrapper {
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -328,7 +328,7 @@ body.lock {
 .statistics__wrapper {
     background-color: var(--second-color);
     padding: 50px 20px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
     gap: 20px;
     row-gap: 20px;
@@ -380,7 +380,7 @@ body.lock {
 
 .about-me__wrapper {
     padding: 70px 0;
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -442,7 +442,7 @@ body.lock {
 
 .services__wrapper {
     padding: 30px 0 50px 0;
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
     gap: 50px;
 }
@@ -450,7 +450,7 @@ body.lock {
 .services__item {
     padding: 24px 40px;
     background-color: #FBFBFB;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     -webkit-justify-content: space-between;
     display: flex;
@@ -522,7 +522,7 @@ body.lock {
 .services__for-whom__wrapper {
     margin: 20px 0 50px 0;
     background-color: var(--second-color);
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
     align-items: stretch;
 }
@@ -581,7 +581,7 @@ body.lock {
 
 .services__about-psycho__wrapper {
     padding: 55px 0;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-items: center;
     display: flex;
     align-items: center;
@@ -636,7 +636,7 @@ body.lock {
 
 .services__about-coach__wrapper {
     padding: 55px 0;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-items: center;
     display: flex;
     align-items: center;
@@ -678,7 +678,7 @@ body.lock {
 .my-clients__wrapper {
     padding: 20px 0 70px 0;
     text-align: center;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     -webkit-align-items: center;
     display: flex;
@@ -691,7 +691,7 @@ body.lock {
 }
 
 .clients__list {
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-wrap: wrap;
     -webkit-justify-content: center;
     display: flex;
@@ -828,14 +828,14 @@ body.lock {
 }
 
 .videogallery__content {
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-justify-content: space-between;
     display: flex;
     justify-content: space-between;
 }
 
 .videogallery__content-vertical {
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
     gap: 2vw;
     width: 75%;
@@ -849,7 +849,7 @@ body.lock {
 }
 
 .videogallery__content-square {
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     display: flex;
     flex-direction: column;
@@ -934,7 +934,7 @@ body.lock {
 }
 
 .training__item-text__wrapper {
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
     gap: 100px;
 }
@@ -966,7 +966,7 @@ body.lock {
 }
 
 .training__item-grid__wrapper {
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-wrap: wrap;
     -webkit-justify-content: space-between;
     display: flex;
@@ -979,7 +979,7 @@ body.lock {
 
 .item-grid {
     width: 48%;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     -webkit-justify-content: space-between;
     display: flex;
@@ -1007,7 +1007,7 @@ body.lock {
 }
 
 .training-third__wrapper {
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-wrap: wrap;
     -webkit-justify-content: space-between;
     display: flex;
@@ -1053,7 +1053,7 @@ body.lock {
 
 .contacts__wrapper {
     padding: 80px 0;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: center;
     display: flex;
@@ -1078,7 +1078,7 @@ body.lock {
 }
 
 .contacts-list__wrapper {
-    -webkit-display: flex;
+    display: -webkit-flex;
     display: flex;
     gap: 30px;
     -webkit-flex-direction: column;
@@ -1086,7 +1086,7 @@ body.lock {
 }
 
 .contacts-list__item {
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-items: center;
     display: flex;
     align-items: center;
@@ -1157,7 +1157,7 @@ body.lock {
     background-size: cover;
     padding: 80px;
     margin-bottom: 28px;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-justify-content: space-evenly;
     -webkit-align-items: center;
     display: flex;
@@ -1176,7 +1176,7 @@ body.lock {
 }
 
 .footer__form {
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     display: flex;
     flex-direction: column;
@@ -1313,7 +1313,7 @@ body.lock {
 
 .popup__body {
     min-height: 100%;
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: center;
     display: flex;
@@ -1345,7 +1345,7 @@ body.lock {
 }
 
 .popup__form {
-    -webkit-display: flex;
+    display: -webkit-flex;
     -webkit-flex-direction: column;
     display: flex;
     flex-direction: column;
